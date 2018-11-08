@@ -3,7 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NukeAutomation", "NukeAutomation\NukeAutomation.csproj", "{8BA1C484-9AEA-4F5F-A0CB-2F27C946B896}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "build\_build.csproj", "{9CDA7BD8-8DD9-41B7-AA6D-57BC6CAF1BEB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NukeAutomation", "src\NukeAutomation\NukeAutomation.csproj", "{B2E9FD58-516F-47AB-8DBC-EDE57137D8ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NukeAutomation_Test", "tests\NukeAutomation_Test\NukeAutomation_Test.csproj", "{3F8A1524-9F3E-4E6B-8666-52A6B7CB7784}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D5F6DAED-A5E8-41F8-BE3F-F9DA12666251}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{91C67148-721E-4ADB-98D4-F52ED091F428}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{213D0AC6-E203-48D8-A69D-7FDE9A4190F2}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +24,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8BA1C484-9AEA-4F5F-A0CB-2F27C946B896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8BA1C484-9AEA-4F5F-A0CB-2F27C946B896}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8BA1C484-9AEA-4F5F-A0CB-2F27C946B896}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8BA1C484-9AEA-4F5F-A0CB-2F27C946B896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CDA7BD8-8DD9-41B7-AA6D-57BC6CAF1BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CDA7BD8-8DD9-41B7-AA6D-57BC6CAF1BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2E9FD58-516F-47AB-8DBC-EDE57137D8ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2E9FD58-516F-47AB-8DBC-EDE57137D8ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2E9FD58-516F-47AB-8DBC-EDE57137D8ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2E9FD58-516F-47AB-8DBC-EDE57137D8ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F8A1524-9F3E-4E6B-8666-52A6B7CB7784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F8A1524-9F3E-4E6B-8666-52A6B7CB7784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F8A1524-9F3E-4E6B-8666-52A6B7CB7784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F8A1524-9F3E-4E6B-8666-52A6B7CB7784}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B2E9FD58-516F-47AB-8DBC-EDE57137D8ED} = {D5F6DAED-A5E8-41F8-BE3F-F9DA12666251}
+		{3F8A1524-9F3E-4E6B-8666-52A6B7CB7784} = {91C67148-721E-4ADB-98D4-F52ED091F428}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F04147A3-A9DF-447C-944F-0FDD6A958789}
